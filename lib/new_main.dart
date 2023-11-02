@@ -1,19 +1,14 @@
-
-
-
 void main() {
-  int number = 52;
+  int number = 5;
   int result = factorial(number);
   print("The factorial of $number is $result");
 
-  int numberOfTerms = 10;
+  int numberOfTerms = 100;
   List<int> fibonacciSeries = generateFibonacci(numberOfTerms);
 
   print(
       "The first $numberOfTerms terms of the Fibonacci sequence are: $fibonacciSeries");
 }
-
-
 
 List<int> generateFibonacci(int terms) {
   List<int> fibonacciSequence = [];
@@ -37,7 +32,6 @@ List<int> generateFibonacci(int terms) {
 
   return fibonacciSequence;
 }
-
 
 int factorial(int n) {
   if (n == 0) {
