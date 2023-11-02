@@ -59,7 +59,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-  String _text = " ";
+  String _text = "Values : ";
 
   void _incrementCounter() {
     setState(() {
